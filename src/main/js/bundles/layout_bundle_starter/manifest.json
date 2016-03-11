@@ -1,0 +1,54 @@
+{
+    "Bundle-SymbolicName": "layout-bundle-starter",
+    "Bundle-Version": "1.0.0",
+    "Bundle-Name": "${bundleName}",
+    "Bundle-Description": "${bundleDescription}",
+    "Bundle-Vendor": "con terra GmbH",
+    "Bundle-Category": ["sample"],
+    "Bundle-Icon": {},
+    "Bundle-License": {},
+    "Product-Name": "con terra Developer Network",
+    "Require-Bundle": [{
+            "name": "templates",
+            "version": ">=3.4.0"
+        }],
+    "layout-widgets": [
+        {
+            "sublayout": ["desktop"],
+            "widgetRole": "overviewMap",
+            "window": {
+                "title": "My cool overviewmap",
+                "marginBox": {
+                    "r": 0,
+                    "t": 0,
+                    "b": 0,
+                    "w": 300
+                }
+            },
+            "priority": 1
+        },
+        {
+            "widgetRole": "coordinateviewer",
+            "sublayout": [
+                "desktop"
+            ],
+            "attachTo": "header_center",
+            "props": {
+                "style": "display:inline-block;margin-top:8px"
+            },
+            "priority": 1
+        },
+        {
+            "widgetRole": "coordinateviewer",
+            "sublayout": [
+                "tablet_landscape",
+                "tablet_portrait",
+                "mobile_landscape",
+                "mobile_portrait"
+            ],
+            "attachTo": "map_bottomleft",
+            "cssClass": "background-highlight",
+            "priority": 1
+        }
+    ]
+}
