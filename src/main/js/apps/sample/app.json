@@ -13,7 +13,7 @@
             "toolrules",
             "overviewmap",
             "coordinateviewer",
-            "layout-bundle-starter"
+            "dn_layoutBundleStarter"
         ],
         "skipBundles" : [],
         "require" : ["${app}.app"],

@@ -1,5 +1,5 @@
 {
-    "Bundle-SymbolicName": "layout-bundle-starter",
+    "Bundle-SymbolicName": "dn_layoutBundleStarter",
     "Bundle-Version": "1.0.0",
     "Bundle-Name": "${bundleName}",
     "Bundle-Description": "${bundleDescription}",
