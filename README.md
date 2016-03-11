@@ -1,4 +1,4 @@
-# mapapps-layout-bundle-starter
+# Layout-Bundle Starter
 
 This bundle helps your to get started on providing layout descriptions for other bundles.
 
