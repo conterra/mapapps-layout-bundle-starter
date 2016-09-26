@@ -7,7 +7,7 @@
     "Bundle-Category": ["sample"],
     "Bundle-Icon": {},
     "Bundle-License": {},
-    "Product-Name": "con terra Developer Network",
+    "Product-Name": "devnet-mapapps-layout-bundle-starter",
     "Require-Bundle": [{
             "name": "templates",
             "version": ">=3.4.0"
