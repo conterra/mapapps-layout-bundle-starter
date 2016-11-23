@@ -1,18 +1,21 @@
 {
+    "properties": {
+        "amdPackages": "apprt@^3.4.0"
+    },
     "load": {
-        "bundleLocations" : ["localbundles","bundles"],
-        "allowedBundles" : [
-            "system",
-            "splashscreen",
-            "map",
-            "themes",
-            "templates",
-            "templatelayout",
-            "windowmanager",
-            "toolset",
-            "toolrules",
-            "overviewmap",
-            "coordinateviewer",
+        "bundleLocations": ["localbundles", "bundles"],
+        "allowedBundles": [
+            "system@^3.4.0",
+            "splashscreen@^3.4.0",
+            "map@^3.4.0",
+            "themes@^3.4.0",
+            "templates@^3.4.0",
+            "templatelayout@^3.4.0",
+            "windowmanager@^3.4.0",
+            "toolset@^3.4.0",
+            "toolrules@^3.4.0",
+            "overviewmap@^3.4.0",
+            "coordinateviewer@^3.4.0",
             "dn_layoutBundleStarter"
         ],
         "skipBundles" : [],

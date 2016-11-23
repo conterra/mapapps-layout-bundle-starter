@@ -10,7 +10,7 @@
     "Product-Name": "devnet-mapapps-layout-bundle-starter",
     "Require-Bundle": [{
             "name": "templates",
-            "version": ">=3.4.0"
+            "version": "^3.4.0"
         }],
     "layout-widgets": [
         {
