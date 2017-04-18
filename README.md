@@ -1,6 +1,6 @@
 # Layout-Bundle Starter
 
-This bundle helps your to get started on providing layout descriptions for other bundles.
+This bundle helps you to get started on providing layout descriptions for other bundles.
 
 ## How to use?
 1.  Download the bundle from release section
